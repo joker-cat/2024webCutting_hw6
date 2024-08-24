@@ -1,16 +1,17 @@
 <header>
-  <div class="container">
-    <div class="d-flex justify-content-between">
+  <div class="container mx-auto py-5">
+    <div class="d-flex justify-content-between align-items-center">
       <h1 class="header-logo me-6">Vivre</h1>
-      <input type="text" class="search" name="search" id="search">
+      <input type="text" class="search" name="search" id="search" placeholder="搜尋文章">
+      <span class="material-symbols-outlined ms-n5">search</span>
+      <ul class="d-flex justify-content-end align-items-center flex-grow-1 mb-0">
+        <li><a class="header-link-padding header-link-color text-decoration-none" href="#">所有文章</a></li>
+        <li><a class="header-link-padding header-link-color text-decoration-none" href="#">訂閱方案</a></li>
+        <li><a class="header-link-padding header-link-color text-decoration-none" href="#">關於我們</a></li>
+        <li>
+          <button type="button" class="login-btn noto-serif-tc-700">登入 / 註冊</button>
+        </li>
+      </ul>
     </div>
-    <ul>
-      <li><a href="#">所有文章</a></li>
-      <li><a href="#">訂閱方案</a></li>
-      <li><a href="#">關於我們</a></li>
-      <li>
-        <button type="button">登入/註冊</button>
-      </li>
-    </ul>
   </div>
 </header>

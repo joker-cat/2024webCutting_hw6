@@ -1,6 +1,40 @@
-.header-logo{
-  color: $neutral-500;
-}
-.search{
-  width: 276px;
+header {
+  .header-logo {
+    color: $neutral-500;
+  }
+
+  .search {
+    width: 276px;
+    height: 48px;
+    padding: 12px 20px;
+    border-radius: 100px;
+    border: 1px solid #DEE2E6;
+    background-color: $neutral-white;
+    ＆::placeholder {
+      color: $neutral-300;
+    }
+    &::after{
+      content: '/e8b6';
+      display: block;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .header-link-padding {
+    padding: 8px 20px;
+    margin-right: 20px;
+  }
+
+  .header-link-color {
+    color: $neutral-500;
+  }
+
+  .login-btn {
+    color: $neutral-white;
+    background-color: $accent-200;
+    padding: 16px 24px;
+    border-radius: 100px;
+    border: 0;
+  }
 }

@@ -1,4 +1,6 @@
 header {
+  border: 1px solid $blue-100;
+
   .header-logo {
     color: $neutral-500;
   }
@@ -10,10 +12,12 @@ header {
     border-radius: 100px;
     border: 1px solid #DEE2E6;
     background-color: $neutral-white;
+
     ＆::placeholder {
       color: $neutral-300;
     }
-    &::after{
+
+    &::after {
       content: '/e8b6';
       display: block;
       width: 24px;
@@ -38,3 +42,4 @@ header {
     border: 0;
   }
 }
+

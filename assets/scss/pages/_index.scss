@@ -1,3 +1,25 @@
 .index-body-color{
   background-color: $blue-100;
 }
+
+.banner{
+  padding: 80px 0;
+  .slogan{
+    padding: 228px 0 228px 61px;
+    background-image: url('/assets/image/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .slogan-h5-color,
+    .slogan-h1-color{
+      color: $neutral-white;
+    }
+    .subscribe{
+      color: $neutral-white;
+      background-color: $accent-200;
+      padding: 16px 24px;
+      border-radius: 100px;
+      border: 0;
+    }
+  }
+}

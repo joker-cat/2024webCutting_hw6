@@ -12,20 +12,49 @@
 
 <body class="index-body-color">
   <%- include('./layout/header'); -%>
-    <section class="container">
-      <div class="banner">
-        <div class="slogan">
-          <h5 class="h5 noto-serif-tc-900 slogan-h5-color mb-1">獻給新世代的生活風格誌</h5>
-          <h1 class="h1 noto-serif-tc-900 slogan-h1-color mb-2">一起探索生活的無限可能</h1>
-          <button class="subscribe">
-            <a href="#">
-              <span>馬上訂閱</span>
-              <span class="material-symbols-outlined">arrow_right_alt</span>
-            </a>
-          </button>
-        </div>
-      </div>
-    </section>
+  <%- include('./layout/banner'); -%>
+  <%- include('./layout/theme'); -%>
+
+
+  <section class="container theme-padding">
+    <h2 class="ps-1 fs-2 noto-serif-tc-900 theme">熱門主題</h2>
+    <ul class="p-0 m-0 row gy-3">
+      <li class="col-3 position-relative">
+        <img class="theme-image" src="../assets/image/theme-1.png" alt="主題圖片">
+        <span class="h5 theme-name noto-serif-tc-900 position-absolute top-50 start-50 translate-middle">城市漫遊者</span>
+      </li>
+      <li class="col-3 position-relative">
+        <img class="theme-image" src="../assets/image/theme-3.png" alt="主題圖片">
+        <span class="h5 theme-name noto-serif-tc-900 position-absolute top-50 start-50 translate-middle">秘境尋蹤人</span>
+      </li>
+      <li class="col-3 position-relative">
+        <img class="theme-image" src="../assets/image/theme-5.png" alt="主題圖片">
+        <span class="h5 theme-name noto-serif-tc-900 position-absolute top-50 start-50 translate-middle">品味設計家</span>
+      </li>
+      <li class="col-3 position-relative">
+        <img class="theme-image" src="../assets/image/theme-8.png" alt="主題圖片">
+        <span class="h5 theme-name noto-serif-tc-900 position-absolute top-50 start-50 translate-middle">美食探險記</span>
+      </li>
+      <li class="col-3 position-relative">
+        <img class="theme-image" src="../assets/image/theme-2.png" alt="主題圖片">
+        <span class="h5 theme-name noto-serif-tc-900 position-absolute top-50 start-50 translate-middle">美學建築誌</span>
+      </li>
+      <li class="col-3 position-relative">
+        <img class="theme-image" src="../assets/image/theme-4.png" alt="主題圖片">
+        <span class="h5 theme-name noto-serif-tc-900 position-absolute top-50 start-50 translate-middle">慢活生活行</span>
+      </li>
+      <li class="col-3 position-relative">
+        <img class="theme-image" src="../assets/image/theme-6.png" alt="主題圖片">
+        <span class="h5 theme-name noto-serif-tc-900 position-absolute top-50 start-50 translate-middle">工藝匠心賞</span>
+      </li>
+      <li class="col-3 position-relative">
+        <img class="theme-image" src="../assets/image/theme-7.png" alt="主題圖片">
+        <span class="h5 theme-name noto-serif-tc-900 position-absolute top-50 start-50 translate-middle">時尚先鋒派</span>
+      </li>
+    </ul>
+
+
+  </section>
     <script type="module" src="../main.js"></script>
 </body>
 

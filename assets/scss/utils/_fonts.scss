@@ -16,6 +16,14 @@
 //   font-weight: <weight>;
 //   font-style: normal;
 // }
+.noto-serif-tc-600 {
+  font-family: "Noto Serif TC", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
 
 .noto-serif-tc-700 {
   font-family: "Noto Serif TC", serif;
@@ -25,6 +33,7 @@
   line-height: 1.2;
   letter-spacing: 0.1em;
 }
+
 .noto-serif-tc-900 {
   font-family: "Noto Serif TC", serif;
   font-optical-sizing: auto;
@@ -42,6 +51,15 @@
 //   font-weight: <weight>;
 //   font-style: normal;
 // }
+
+.newsreader-700 {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+}
 
 h1,h2,h3,h4,h5,h6 {
   margin-bottom: 0;

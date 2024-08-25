@@ -4,5 +4,21 @@
 
 .article-padding{
   padding: 80px 0;
-  
+  .swiper-control{
+    
+  }
+  .card{
+    border-bottom: 1px solid $neutral-500;
+    .article-titleColor{
+      color: $neutral-500;
+      margin-bottom: 8px;
+    }
+    .article-info{
+      color: $neutral-400;
+    }
+    .read-more{
+      color: $accent-200;
+      font-weight: 700;
+    }
+  }
 }

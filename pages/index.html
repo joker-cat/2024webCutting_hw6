@@ -15,58 +15,26 @@
     <%- include('./layout/banner'); -%>
       <%- include('./layout/theme'); -%>
         <%- include('./layout/article'); -%>
-          <section class="discount-bg">
-            <div class="container position-relative">
-              <div class="discount-content d-flex flex-column align-items-center">
-                <h4 class="h4 noto-serif-tc-900 fs-4 discount-title">\ 母親節強檔活動 /</h4>
-                <h2 class="h2 noto-serif-tc-900 discount-case">家庭訂閱方案限時 7 折</h2>
-                <ul class="p-0 text-center discount-list-group">
-                  <li class="d-flex mb-16px">
-                    <span class="material-symbols-outlined icon me-1">
-                      check_small
-                    </span>
-                    <span class="noto-serif-tc-600 list">每月最新文章無限閱讀</span>
-                  </li>
-                  <li class="d-flex mb-16px">
-                    <span class="material-symbols-outlined icon me-1">
-                      check_small
-                    </span>
-                    <span class="noto-serif-tc-600 list">專屬會員限定內容</span>
-                  </li>
-                  <li class="d-flex mb-16px">
-                    <span class="material-symbols-outlined icon me-1">
-                      check_small
-                    </span>
-                    <span class="noto-serif-tc-600 list">定期電子報</span>
-                  </li>
-                  <li class="d-flex mb-16px">
-                    <span class="material-symbols-outlined icon me-1">
-                      check_small
-                    </span>
-                    <span class="noto-serif-tc-600 list">年度精選禮物</span>
-                  </li>
-                  <li class="d-flex mb-16px">
-                    <span class="material-symbols-outlined icon me-1">
-                      check_small
-                    </span>
-                    <span class="noto-serif-tc-600 list">24 /7 優先客戶服務</span>
-                  </li>
-                  <li class="d-flex">
-                    <span class="material-symbols-outlined icon me-1">
-                      check_small
-                    </span>
-                    <span class="noto-serif-tc-600 list">為每個成員量身打造專屬行程</span>
-                  </li>
-                </ul>
-                <button type="button" class="more-info">我想了解</button>
-                <img class="position-absolute left-img" src="../assets/image/bg-1.png" alt="背景圖片">
-                <img class="position-absolute right-img" src="../assets/image/bg-2.png" alt="背景圖片">
-              </div>
-            </div>
-          </section>
+          <%- include('./layout/discount'); -%>
+
+  <section class="everyone-look">
+    <div class="container">
+      <h2 class="ps-1 fs-2 noto-serif-tc-900 theme">大家都在看</h2>
+      <div class="everyone-content">
+        <ul>
+          <li></li>
+        </ul>
+        <div class="look-case"></div>
+      </div>
+
+    </div>
 
 
-          <script type="module" src="../main.js"></script>
+
+  </section>
+
+
+            <script type="module" src="../main.js"></script>
 </body>
 
 </html>

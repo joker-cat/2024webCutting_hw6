@@ -3,49 +3,6 @@
 }
 
 
-.discount-bg {
-  background-color: #FFFBE5;
+.everyone-look{
   padding: 80px 0;
-  overflow: hidden;
-  .discount-content {
-
-    .discount-title {
-      color: $blue-400;
-      margin-bottom: 20px;
-    }
-
-    .discount-case {
-      color: $neutral-500;
-      margin-bottom: 20px;
-    }
-
-    .mb-16px {
-      margin-bottom: 16px;
-    }
-    .discount-list-group{
-      margin-bottom: 40px;
-      .icon,
-      .list {
-        color: $blue-400;
-      }
-    }
-
-    .more-info {
-      color: $neutral-white;
-      background-color: $accent-200;
-      padding: 16px 24px;
-      border-radius: 100px;
-      border: 0;
-    }
-    .left-img{
-      left: 12px;
-      bottom: -88px;
-    }
-    .right-img{
-      right: -24px;
-      bottom: -100px;
-    }
-  }
-
-
 }

@@ -2,23 +2,14 @@
   background-color: $blue-100;
 }
 
-.article-padding{
+
+.discount-bg {
+  background-color: $blue-200;
   padding: 80px 0;
-  .swiper-control{
-    
+  .discount-conten {
+    width: 359px;
+    height: 428px;
   }
-  .card{
-    border-bottom: 1px solid $neutral-500;
-    .article-titleColor{
-      color: $neutral-500;
-      margin-bottom: 8px;
-    }
-    .article-info{
-      color: $neutral-400;
-    }
-    .read-more{
-      color: $accent-200;
-      font-weight: 700;
-    }
-  }
+
+
 }
